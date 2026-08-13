@@ -1,7 +1,7 @@
 {
   "name": "codex-for-everything",
-  "version": "0.2.0",
-  "description": "Codex-native engineering and design workflows adapted from WorldFlowAI's Everything Claude Code collection.",
+  "version": "0.3.0",
+  "description": "Codex-native engineering, design, delegation, verification, and delivery workflows adapted from Everything Claude Code.",
   "author": {
     "name": "Alif0x1",
     "url": "https://github.com/Alif0x1"
@@ -9,12 +9,12 @@
   "homepage": "https://github.com/Alif0x1/codex-for-everything",
   "repository": "https://github.com/Alif0x1/codex-for-everything",
   "license": "MIT",
-  "keywords": ["codex", "engineering", "frontend", "design", "tdd", "code-review", "security", "verification", "workflow"],
+  "keywords": ["codex", "engineering", "frontend", "design", "agents", "tdd", "code-review", "security", "verification", "workflow"],
   "skills": "./skills/",
   "interface": {
     "displayName": "Codex for Everything",
     "shortDescription": "Engineering workflows for Codex.",
-    "longDescription": "Codex-native skills for planning, TDD, architecture, frontend and backend patterns, deliberate visual design, security review, evaluation, verification, and reviewable learning capture.",
+    "longDescription": "Codex-native skills for project onboarding, planning, delegation, TDD, architecture, frontend and backend patterns, deliberate visual design, security review, evaluation, context budgeting, delivery gates, and Git workflow.",
     "developerName": "Alif0x1",
     "category": "Coding",
     "capabilities": ["Interactive", "Read", "Write"],

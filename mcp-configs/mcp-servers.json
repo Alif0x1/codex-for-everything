@@ -1,0 +1,9 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/2025-06-18/server.json",
+  "servers": {},
+  "notes": [
+    "Add only MCP servers the current task needs.",
+    "Keep credentials in managed environment variables or the host secret store.",
+    "Never commit access tokens, API keys, or customer data."
+  ]
+}

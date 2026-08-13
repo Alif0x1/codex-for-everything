@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "runtime": "codex",
+  "registration": "documentation-only",
+  "events": [],
+  "capabilities": {
+    "preflight": "npm run check",
+    "checkpoint": "node scripts/codex/checkpoint.mjs",
+    "packageManager": "node scripts/setup-package-manager.mjs --detect"
+  },
+  "note": "Codex for Everything intentionally does not register Claude event hooks."
+}

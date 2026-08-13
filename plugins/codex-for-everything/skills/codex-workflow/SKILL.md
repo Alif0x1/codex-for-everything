@@ -38,3 +38,5 @@ Treat the upstream slash commands as workflow intents, not literal commands:
 4. Implement with the repository’s conventions.
 5. Run focused checks, then `verification-loop` for the final gate.
 6. Review the diff and hand off evidence, remaining risks, and next steps.
+
+Repository playbooks live in `commands/`, role contracts in `agents/`, always-follow guidance in `rules/`, and phase contexts in `contexts/`. They are reference materials for Codex and are not registered as Claude-style slash commands or event hooks.

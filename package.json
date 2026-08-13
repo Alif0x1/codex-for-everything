@@ -1,0 +1,15 @@
+{
+  "name": "codex-for-everything",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Codex-native engineering and design workflows.",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run-all.mjs",
+    "validate": "python3 tests/validate_codex_plugin.py && node scripts/validate-structure.mjs",
+    "check": "npm run validate"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
