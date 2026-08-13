@@ -1,8 +1,8 @@
 # Codex for Everything
 
-Codex-native engineering workflows adapted from WorldFlowAI's [Everything Claude Code](https://github.com/WorldFlowAI/everything-claude-code) collection.
+Codex-native engineering workflows adapted from WorldFlowAI's [Everything Claude Code](https://github.com/WorldFlowAI/everything-claude-code) collection. The frontend design guidance is a compact Codex adaptation of [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill).
 
-This repository packages reusable Codex skills for planning, architecture, frontend and backend patterns, TDD, security review, evaluation, verification, and reviewable learning capture. Claude-only slash commands, hook events, and `~/.claude` configuration are intentionally excluded.
+This repository packages reusable Codex skills for planning, architecture, frontend and backend patterns, deliberate visual design, TDD, security review, evaluation, verification, and reviewable learning capture. Claude-only slash commands, hook events, and `~/.claude` configuration are intentionally excluded.
 
 ## Install in Codex
 
@@ -16,6 +16,7 @@ Start a new Codex task after installation so the skills are discovered.
 ## Included skills
 
 - `codex-workflow` — maps common ECC workflow intents to Codex behavior
+- `design-taste-frontend` — Codex-optimized design read, three-dial scale, implementation loop, and visual preflight
 - `backend-patterns` and `frontend-patterns` — production implementation patterns
 - `coding-standards` — maintainable TypeScript, JavaScript, React, and Node.js conventions
 - `tdd-workflow` — test-first feature and bug-fix workflow
