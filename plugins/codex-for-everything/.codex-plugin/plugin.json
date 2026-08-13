@@ -1,0 +1,28 @@
+{
+  "name": "codex-for-everything",
+  "version": "0.1.0",
+  "description": "Codex-native engineering workflows adapted from WorldFlowAI's Everything Claude Code collection.",
+  "author": {
+    "name": "Alif0x1",
+    "url": "https://github.com/Alif0x1"
+  },
+  "homepage": "https://github.com/Alif0x1/codex-for-everything",
+  "repository": "https://github.com/Alif0x1/codex-for-everything",
+  "license": "MIT",
+  "keywords": ["codex", "engineering", "tdd", "code-review", "security", "verification", "workflow"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex for Everything",
+    "shortDescription": "Engineering workflows for Codex.",
+    "longDescription": "Codex-native skills for planning, TDD, architecture, frontend and backend patterns, security review, evaluation, verification, and reviewable learning capture.",
+    "developerName": "Alif0x1",
+    "category": "Coding",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/Alif0x1/codex-for-everything",
+    "defaultPrompt": [
+      "Use TDD and verify this feature before shipping.",
+      "Review this change for security and regressions.",
+      "Plan this implementation with clear verification gates."
+    ]
+  }
+}
