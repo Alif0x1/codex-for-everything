@@ -1,6 +1,6 @@
 # Codex for Everything
 
-Codex-native engineering workflows adapted from WorldFlowAI's [Everything Claude Code](https://github.com/WorldFlowAI/everything-claude-code) collection. The frontend design guidance is a compact Codex adaptation of [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill).
+Codex-native engineering workflows adapted from WorldFlowAI's [Everything Claude Code](https://github.com/WorldFlowAI/everything-claude-code) collection. 
 
 This repository packages reusable Codex skills for planning, architecture, frontend and backend patterns, deliberate visual design, TDD, security review, evaluation, verification, and reviewable learning capture. Claude-only slash commands, hook events, and `~/.claude` configuration are intentionally excluded.
 
