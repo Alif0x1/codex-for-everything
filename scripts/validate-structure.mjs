@@ -18,11 +18,11 @@ for (const directory of required) {
 
 const manifest = JSON.parse(await readFile(join(plugin, ".codex-plugin/plugin.json"), "utf8"));
 if (manifest.name !== "codex-for-everything") throw new Error("Unexpected plugin name");
-if (manifest.version !== "0.3.1") throw new Error("Plugin version must be 0.3.1");
+if (manifest.version !== "0.3.2") throw new Error("Plugin version must be 0.3.2");
 
 const skillDirs = await readdir(join(plugin, "skills"), { withFileTypes: true });
 const skillFiles = skillDirs.filter((entry) => entry.isDirectory()).map((entry) => join(plugin, "skills", entry.name, "SKILL.md"));
-if (skillFiles.length !== 18) throw new Error(`Expected 18 skills, found ${skillFiles.length}`);
+if (skillFiles.length !== 19) throw new Error(`Expected 19 skills, found ${skillFiles.length}`);
 
 for (const file of skillFiles) {
   const body = await readFile(file, "utf8");

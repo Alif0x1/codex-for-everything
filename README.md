@@ -32,6 +32,7 @@ Start a new Codex task after installation so the updated skill cache is loaded.
 - `git-workflow` — safe staging, commit, push, and remote verification
 - `backend-patterns` and `frontend-patterns` — production implementation patterns
 - `codex-design-compass` — design read, calibrated three-dial scale, implementation loop, and visual preflight
+- `codex-visual-forensics` — rendered design QA, evidence-backed findings, responsive review, and safe fix loop
 - `coding-standards` — maintainable TypeScript, JavaScript, React, and Node.js conventions
 - `tdd-workflow` — test-first feature and bug-fix workflow
 - `security-review` — auth, input, API, secret, payment, upload, and sensitive-data review
@@ -79,7 +80,9 @@ npm test
 npm run validate
 ```
 
-The checks validate marketplace parity, plugin metadata, all 18 skills, Claude-runtime exclusion, checkpoint generation, and the repository structure. Codex plugin and skill validators can be run when the local Codex tooling is available.
+The checks validate marketplace parity, plugin metadata, all 19 skills, Claude-runtime exclusion, checkpoint generation, and the repository structure. Codex plugin and skill validators can be run when the local Codex tooling is available.
+
+The visual review workflow is a Codex-native adaptation of [gstack's design-review skill](https://github.com/garrytan/gstack/blob/main/design-review/SKILL.md), with Codex browser evidence, local screenshot handling, and explicit authorization boundaries.
 
 ## Boundaries
 
