@@ -33,8 +33,8 @@ def main() -> None:
         fail("manifest defaultPrompt must contain one to three prompts")
 
     skill_files = sorted((PLUGIN / "skills").glob("*/SKILL.md"))
-    if len(skill_files) != 19:
-        fail(f"expected 19 skills, found {len(skill_files)}")
+    if len(skill_files) != 20:
+        fail(f"expected 20 skills, found {len(skill_files)}")
 
     names: set[str] = set()
     claude_only_markers = (

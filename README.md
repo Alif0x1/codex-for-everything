@@ -33,6 +33,7 @@ Start a new Codex task after installation so the updated skill cache is loaded.
 - `backend-patterns` and `frontend-patterns` — production implementation patterns
 - `codex-design-compass` — design read, calibrated three-dial scale, implementation loop, and visual preflight
 - `codex-visual-forensics` — rendered design QA, evidence-backed findings, responsive review, and safe fix loop
+- `codex-diagram-forge` — Mermaid-first diagrams with validated SVG/PNG output and optional Excalidraw editing
 - `coding-standards` — maintainable TypeScript, JavaScript, React, and Node.js conventions
 - `tdd-workflow` — test-first feature and bug-fix workflow
 - `security-review` — auth, input, API, secret, payment, upload, and sensitive-data review
@@ -80,9 +81,11 @@ npm test
 npm run validate
 ```
 
-The checks validate marketplace parity, plugin metadata, all 19 skills, Claude-runtime exclusion, checkpoint generation, and the repository structure. Codex plugin and skill validators can be run when the local Codex tooling is available.
+The checks validate marketplace parity, plugin metadata, all 20 skills, Claude-runtime exclusion, checkpoint generation, and the repository structure. Codex plugin and skill validators can be run when the local Codex tooling is available.
 
 The visual review workflow is a Codex-native adaptation of [gstack's design-review skill](https://github.com/garrytan/gstack/blob/main/design-review/SKILL.md), with Codex browser evidence, local screenshot handling, and explicit authorization boundaries.
+
+The diagram workflow is a Codex-native adaptation of [gstack's diagram skill](https://github.com/garrytan/gstack/tree/main/diagram), with Mermaid as the source of truth, renderer capability checks, and safe local artifact handling.
 
 ## Boundaries
 
