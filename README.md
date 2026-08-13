@@ -31,7 +31,7 @@ Start a new Codex task after installation so the updated skill cache is loaded.
 - `delivery-gate` — separates static checks from browser, migration, provider, and deployment proof
 - `git-workflow` — safe staging, commit, push, and remote verification
 - `backend-patterns` and `frontend-patterns` — production implementation patterns
-- `design-taste-frontend` — design read, calibrated three-dial scale, implementation loop, and visual preflight
+- `codex-design-compass` — design read, calibrated three-dial scale, implementation loop, and visual preflight
 - `coding-standards` — maintainable TypeScript, JavaScript, React, and Node.js conventions
 - `tdd-workflow` — test-first feature and bug-fix workflow
 - `security-review` — auth, input, API, secret, payment, upload, and sensitive-data review

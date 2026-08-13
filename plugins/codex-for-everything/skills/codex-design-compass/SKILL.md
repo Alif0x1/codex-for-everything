@@ -1,9 +1,9 @@
 ---
-name: design-taste-frontend
-description: Use for frontend landing pages, portfolios, and redesigns when Codex needs a deliberate design direction, calibrated variance, restrained motion, and an anti-template preflight.
+name: codex-design-compass
+description: Use for frontend landing pages, portfolios, and redesigns when Codex needs a deliberate design direction, calibrated visual scale, restrained motion, and an anti-template preflight.
 ---
 
-# Codex Design Taste
+# Codex Design Compass
 
 Use this skill for visual frontend work. It is intentionally compact and Codex-native: inspect the existing product first, make design decisions explicit, implement with the project’s stack, and verify the rendered result.
 

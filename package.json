@@ -1,6 +1,6 @@
 {
   "name": "codex-for-everything",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "description": "Codex-native engineering and design workflows.",
   "type": "module",
