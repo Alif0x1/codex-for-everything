@@ -1,6 +1,6 @@
 # Codex for Everything
 
-Codex-native engineering, design, delegation, verification, and delivery workflows adapted from WorldFlowAI's [Everything Claude Code](https://github.com/WorldFlowAI/everything-claude-code) collection. The design guidance is a compact Codex adaptation of [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill).
+Codex-native engineering, design, delegation, verification, and delivery workflows adapted from WorldFlowAI's [Everything Claude Code](https://github.com/WorldFlowAI/everything-claude-code) collection.
 
 This repository is intentionally Codex-first. Skills are the runtime surface. Role cards, playbooks, rules, contexts, scripts, tests, examples, and MCP templates support the workflow without registering Claude-only slash commands or event hooks.
 
